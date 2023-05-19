@@ -1,0 +1,283 @@
+body{
+    background: rgb(195,117,34);
+    background: linear-gradient(338deg, rgba(195,117,34,1) 0%, rgba(255,174,0,1) 100%);
+}
+
+/* barra de navegacion  */
+
+.navbar {
+    background-color: #333;
+  }
+  @media screen and (max-width: 768px) {
+    .navbar {
+    }
+    
+  }
+
+
+  /* formulario pagina contacto*/
+
+  .footer-columns{
+    background-color: transparent;
+    display: block;
+    justify-content: end;
+
+    
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    margin: 10;
+    padding: 20px;
+  }
+  
+  .container {
+    max-width: 768px;
+    margin: 0 auto;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  form {
+    background-color: transparent;
+    padding: 20px;
+    border-radius: 15px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+  }
+  
+  button {
+    background-color: #45a049;
+    color: white;
+    padding: 16px 25px;
+    border: none;
+    border-radius: 10px;
+    cursor: col-resize;
+    width: 100%;
+    
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  @media (max-width: 768px) {
+    input[type="text"],
+    input[type="email"],
+    textarea {
+      width: 100%;
+    }
+  }
+
+  /* pie de las paginas web (todas) */
+
+  footer {
+    background-color: none;
+    padding: 20px;
+  }
+  
+  .footer-columns {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .footer-column {
+    flex-basis: 30%;
+    margin-bottom: 20px;
+  }
+  
+  @media (max-width: 768px) {
+    .footer-column {
+      flex-basis: 100%;
+    }
+  }
+
+
+ /* galeria de fotos estilos*/ 
+
+ .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .box {
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+    overflow: hidden;
+    border: transparent;
+  }
+  
+  .box img {
+    width: 80%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  /* estilos de pagina detalle*/
+
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #header {
+    background-color:none;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  #content {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+
+/* */
+
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar {
+    background-color: #333;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .navbar a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+  }
+  
+  .navbar a:hover {
+    color: #ff0000;
+  }
+  
+  .navbar .active {
+    color: #ff0000;
+  }
+  
+  .login-button {
+    background-color: #ff0000;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin-left: 10px;
+    border-radius: 10%;
+  }
+  @media screen and (max-width: 600px) {
+    .navbar {
+      display: flex;
+      flex-direction: column;
+    }
+    
+    .navbar a, .login-button {
+      margin: 10px 0;
+    }
+  }
+
+
+    @media screen and (max-width: 600px) {
+      .login {
+        display: flex;
+        flex-direction: column;
+      }
+  }
+
+.accordion{
+  flex-direction: row-reverse;
+}
+
+
+#content1{
+  border: none;
+  padding: 10px 20px;
+  text-decoration: none;
+  margin-left: 10px;
+  border-radius: 10%;
+  justify-content: center;
+  text-align: center;
+
+}
+
+
+#content2{
+  border: none;
+  padding: 10px 20px;
+  text-decoration: none;
+  margin-left: 10px;
+  border-radius: 10%;
+  justify-content: center;
+  text-align: center;
+
+}
+
+#content3{
+  border: none;
+  padding: 10px 20px;
+  text-decoration: none;
+  margin-left: 10px;
+  border-radius: 10%;
+  justify-content: center;
+  text-align: center;
+
+}
+
+#content4{
+  border: none;
+  padding: 10px 20px;
+  text-decoration: none;
+  margin-left: 10px;
+  border-radius: 10%;
+  justify-content: center;
+  text-align: center;
+
+}
+
+.navbar{
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+}

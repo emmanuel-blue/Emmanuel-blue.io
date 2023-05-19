@@ -1,0 +1,134 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(..//IMAGENES/fondo.jpg);
+    background-size: cover;
+    font-family: sans-serif;
+    height: 100vh;
+
+}
+
+.login1{
+    width: 400px;
+    height: 450px;
+    background: #b4850f;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box ;
+    padding: 70px 30px;
+}
+
+.login1 .imagen{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: calc(83% - 50px);
+}
+
+.login1 h1{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align:center ;
+    font: size 22px; ;
+    color: rgb(255, 255, 255);
+
+
+}
+
+.login1 label{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    display: block ;
+}
+
+.login1 input {
+    width: 100% ;
+    margin-bottom:  20px;
+}
+
+
+
+.pass {
+    border: none;
+    border-bottom: 1px solid #fff;
+    background:transparent; 
+    outline : none;
+    height: 40px;
+    color: #fff;
+    font-size: 17px; 
+}
+
+
+.user {
+    border: none;
+    border-bottom: 1px solid #fff;
+    background:transparent; 
+    outline : none;
+    height: 40px;
+    color: #fff;
+    font-size: 17px;
+
+    
+}
+
+
+
+.login1 a{
+    text-decoration: none;
+    font-size: 18px; 
+    line-height: 20px;
+    color:darkgray;
+}
+
+.login1 a:hover {
+    color: #fff;    
+}
+
+
+
+
+
+
+
+
+
+.boton {
+background: linear-gradient(102deg, #0619c9) 40%, #543fd7 60%;
+color: #ffffff;
+display: inline-block;
+padding: 1rem 2rem;
+border-radius: .25rem;
+min-width: 200px;
+text-decoration: none;
+box-shadow: 0 0 0 0 rgba(0, 0, 0, .5);
+animation: pulse 1.5s infinite;
+background-color: rgb(255, 0, 0);
+}
+
+
+@keyframes pulse{
+    50% {    
+       transform: scale(.99);
+       box-shadow: 0 0 0 0 rgba(256, 256, 256, .1);
+       }
+   
+   
+   70% {    
+       transform: scale(1);
+       box-shadow: 0 0 0 25px rgba(256, 256, 256,0);
+       }
+    
+   
+   100% {    
+       transform: scale(.99);
+       box-shadow: 0 0 0 0 rgba(256, 256, 256,0);
+       }
+    }
+   
+   
